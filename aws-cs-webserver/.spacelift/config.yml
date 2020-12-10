@@ -1,0 +1,7 @@
+version: "1"
+
+stack_defaults:
+  before_apply:
+    - ls -la
+    - dotnet clean
+    - ls -la
