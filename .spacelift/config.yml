@@ -2,4 +2,6 @@ version: "1"
 
 stack_defaults:
   before_apply:
-    - pip install -r requirements.txt
+    - dotnet clean
+    - rm -rf bin
+    - rm -rf obj
