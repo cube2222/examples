@@ -54,5 +54,5 @@ nohup python -m SimpleHTTPServer 80 &
 
     [Output] public Output<string> PublicDns { get; set; }
 
-    private const string Size = "t2.micro";
+    private const string Size = "t2.nano";
 }
